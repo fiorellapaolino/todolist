@@ -1,0 +1,82 @@
+body {
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a72787, #000428);  
+    background: linear-gradient(to right, #a72787, #88517a); 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+header {
+    margin: 30px 0;
+   
+}
+.contenido {
+    padding:20px;
+}
+
+.contenido-principal {
+    background-color: #262527;
+    padding: 30px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.presupuesto p{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.presupuesto p span {
+    font-weight: normal;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color:#004e92;
+    font-size: 22px;
+    margin-bottom:20px;
+}
+
+.btn-add{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.form-control{
+    width: 80%;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    outline: none;
+    width: 80%;
+    padding: 8px 0px;
+    margin: 10px 0px;
+}
+
+.row{
+    width: 500px;
+}
+
+.width-in{
+height: 40px;
+}
